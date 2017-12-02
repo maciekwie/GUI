@@ -1,0 +1,5 @@
+bin/
+obj/
+LSANSD.TTF
+GUI_build_log.html
+allegro.log

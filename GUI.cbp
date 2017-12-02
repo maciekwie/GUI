@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GUI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GUI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/usr/include" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../usr/lib/liballegro.so" />
+					<Add library="../../../usr/lib/liballegro_primitives.so" />
+					<Add library="../../../usr/lib/liballegro_image.so" />
+					<Add library="../../../usr/lib/liballegro_font.so" />
+					<Add library="../../../usr/lib/liballegro_audio.so" />
+					<Add library="../../../usr/lib/liballegro_acodec.so" />
+					<Add library="../../../usr/lib/liballegro_color.so" />
+					<Add library="../../../usr/lib/liballegro_ttf.so" />
+					<Add library="../../../usr/lib/liballegro_physfs.so" />
+					<Add library="../../../usr/lib/liballegro_memfile.so" />
+					<Add library="../../../usr/lib/liballegro_main.so" />
+					<Add library="../../../usr/lib/liballegro_dialog.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GUI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-std=c++11" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="include/App.h" />
+		<Unit filename="include/Button.h" />
+		<Unit filename="include/CustomWidget.h" />
+		<Unit filename="include/EditBox.h" />
+		<Unit filename="include/Event.h" />
+		<Unit filename="include/EventEmitter.h" />
+		<Unit filename="include/EventListener.h" />
+		<Unit filename="include/EventObject.h" />
+		<Unit filename="include/EventQueue.h" />
+		<Unit filename="include/GUISystem.h" />
+		<Unit filename="include/Handle.h" />
+		<Unit filename="include/KeyboardEvent.h" />
+		<Unit filename="include/Logger.h" />
+		<Unit filename="include/MouseEvent.h" />
+		<Unit filename="include/Renderer.h" />
+		<Unit filename="include/Scrollbar.h" />
+		<Unit filename="include/TextField.h" />
+		<Unit filename="include/Widget.h" />
+		<Unit filename="include/events.h" />
+		<Unit filename="include/keycodes.h" />
+		<Unit filename="include/loggerLocator.h" />
+		<Unit filename="src/App.cpp" />
+		<Unit filename="src/Button.cpp" />
+		<Unit filename="src/CustomWidget.cpp" />
+		<Unit filename="src/EditBox.cpp" />
+		<Unit filename="src/Event.cpp" />
+		<Unit filename="src/EventEmitter.cpp" />
+		<Unit filename="src/EventListener.cpp" />
+		<Unit filename="src/EventQueue.cpp" />
+		<Unit filename="src/GUISystem.cpp" />
+		<Unit filename="src/Logger.cpp" />
+		<Unit filename="src/Renderer.cpp" />
+		<Unit filename="src/Scrollbar.cpp" />
+		<Unit filename="src/TextField.cpp" />
+		<Unit filename="src/Widget.cpp" />
+		<Unit filename="src/loggerLocator.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

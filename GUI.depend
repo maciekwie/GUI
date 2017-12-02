@@ -1,0 +1,2305 @@
+# depslib dependency file v1.0
+1484587472 source:c:\users\maciej\documents\codeblocksprojects\gui\main.cpp
+	<iostream>
+	<stdexcpt.h>
+	"App.h"
+
+1484587472 h>
+
+1486663068 source:c:\users\maciej\documents\codeblocksprojects\gui\src\guisystem.cpp
+	"GUISystem.h"
+	<stdexcpt.h>
+	"EventObject.h"
+	"KeyboardEvent.h"
+	"MouseEvent.h"
+
+1484140599 t.h"
+
+1486663072 c:\users\maciej\documents\codeblocksprojects\gui\include\guisystem.h
+	<forward_list>
+	<map>
+	<string>
+	"Button.h"
+	"EditBox.h"
+	"Event.h"
+	"EventQueue.h"
+	"Handle.h"
+	"Renderer.h"
+	"Scrollbar.h"
+	"TextField.h"
+	"Widget.h"
+
+1486665661 
+
+1486654123 source:c:\users\maciej\documents\codeblocksprojects\gui\src\renderer.cpp
+	"Renderer.h"
+	<allegro5/allegro_primitives.h>
+
+1486654123 allegro_primitives.h>
+
+1486662075 c:\users\maciej\documents\codeblocksprojects\gui\include\renderer.h
+	<string>
+	<allegro5/allegro5.h>
+	<allegro5/allegro_color.h>
+	<allegro5/allegro_font.h>
+
+1486662075 allegro_font.h>
+
+1486649966 source:c:\users\maciej\documents\codeblocksprojects\gui\src\widget.cpp
+	"Widget.h"
+	"GUISystem.h"
+	"loggerLocator.h"
+
+1486563926 ator.h"
+
+1486639461 c:\users\maciej\documents\codeblocksprojects\gui\include\widget.h
+	<functional>
+	<string>
+	<forward_list>
+	"Renderer.h"
+	"EventEmitter.h"
+	"Event.h"
+
+1486658654 source:c:\users\maciej\documents\codeblocksprojects\gui\src\button.cpp
+	"Button.h"
+	"GUISystem.h"
+	"Renderer.h"
+
+1486665805 h"
+
+1486659173 c:\users\maciej\documents\codeblocksprojects\gui\include\button.h
+	<string>
+	"Renderer.h"
+	"Widget.h"
+
+1486664351 source:c:\users\maciej\documents\codeblocksprojects\gui\src\event.cpp
+	"Event.h"
+
+1486664987 c:\users\maciej\documents\codeblocksprojects\gui\include\event.h
+	"events.h"
+	"EventObject.h"
+
+1484144440 ct.h"
+
+1486665526 c:\users\maciej\documents\codeblocksprojects\gui\include\events.h
+	<functional>
+
+1486665526 l>
+
+1486658543 c:\users\maciej\documents\codeblocksprojects\gui\include\textfield.h
+	<string>
+	"Renderer.h"
+	"Widget.h"
+
+1486658573 c:\users\maciej\documents\codeblocksprojects\gui\include\editbox.h
+	<string>
+	"keycodes.h"
+	"Widget.h"
+	"Handle.h"
+	"Scrollbar.h"
+
+1486652330 .h"
+
+1486665805 source:c:\users\maciej\documents\codeblocksprojects\gui\src\editbox.cpp
+	"EditBox.h"
+	<iostream>
+	"GUISystem.h"
+	"Renderer.h"
+
+1486658528 source:c:\users\maciej\documents\codeblocksprojects\gui\src\textfield.cpp
+	"TextField.h"
+
+1484590414 c:\users\maciej\documents\codeblocksprojects\gui\include\common.h
+
+1483022322 c:\users\maciej\documents\codeblocksprojects\gui\include\widgethandle.h
+
+1480867772 source:c:\users\maciej\documents\codeblocksprojects\gui\src\widgethandle.cpp
+	"WidgetHandle.h"
+
+1483022098 dle.h"
+
+1486665943 c:\users\maciej\documents\codeblocksprojects\gui\include\app.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	"Button.h"
+	"CustomWidget.h"
+	"EditBox.h"
+	"Event.h"
+	"Events.h"
+	"GUISystem.h"
+	"Handle.h"
+	"Renderer.h"
+	"TextField.h"
+
+1486663584 source:c:\users\maciej\documents\codeblocksprojects\gui\src\app.cpp
+	"App.h"
+	<stdexcpt.h>
+	<allegro5/allegro_color.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+
+1486663584 allegro_ttf.h>
+
+1484137265 c:\users\maciej\documents\codeblocksprojects\gui\include\guicontainer.h
+	<functional>
+	"GUISystem.h"
+	"Event.h"
+	"Events.h"
+	"Button.h"
+	"TextField.h"
+	"EditBox.h"
+	"CustomWidget.h"
+	"Handle.h"
+
+1484135240 source:c:\users\maciej\documents\codeblocksprojects\gui\src\guicontainer.cpp
+	"GuiContainer.h"
+	"events.h"
+
+1486665370 c:\users\maciej\documents\codeblocksprojects\gui\include\eventemitter.h
+	<string>
+	<functional>
+	<map>
+	"Event.h"
+	"EventListener.h"
+	"events.h"
+
+1486663969 source:c:\users\maciej\documents\codeblocksprojects\gui\src\eventemitter.cpp
+	"EventEmitter.h"
+	<algorithm>
+	<utility>
+	"GUISystem.h"
+	"loggerLocator.h"
+
+1486666151 c:\users\maciej\documents\codeblocksprojects\gui\include\eventqueue.h
+	<functional>
+	<utility>
+	<queue>
+	"Event.h"
+	"EventEmitter.h"
+	"events.h"
+
+1480932974 c:\users\maciej\documents\codeblocksprojects\gui\include\eventqueueentry.h
+	"Event.h"
+	"events.h"
+
+1486658657 source:c:\users\maciej\documents\codeblocksprojects\gui\src\eventqueue.cpp
+	"EventQueue.h"
+
+1486658657 e.h"
+
+1486658551 c:\users\maciej\documents\codeblocksprojects\gui\include\scrollbar.h
+	"Button.h"
+	"EventListener.h"
+	"Handle.h"
+	"MouseEvent.h"
+	"Renderer.h"
+	"Widget.h"
+
+1486664427 source:c:\users\maciej\documents\codeblocksprojects\gui\src\scrollbar.cpp
+	"Scrollbar.h"
+	<iostream>
+	"GUISystem.h"
+
+1483021922 c:\users\maciej\documents\codeblocksprojects\gui\include\scrollbarhandle.h
+	"WidgetHandle.h"
+
+1483022006 c:\users\maciej\documents\codeblocksprojects\gui\include\buttonhandle.h
+	"WidgetHandle.h"
+
+1483022044 c:\users\maciej\documents\codeblocksprojects\gui\include\textfieldhandle.h
+	"WidgetHandle.h"
+
+1483022098 c:\users\maciej\documents\codeblocksprojects\gui\include\editboxhandle.h
+	"WidgetHandle.h"
+
+1486659057 c:\users\maciej\documents\codeblocksprojects\gui\include\mouseevent.h
+	"EventObject.h"
+
+1486659074 c:\users\maciej\documents\codeblocksprojects\gui\include\keyboardevent.h
+	"EventObject.h"
+
+1486548858 c:\users\maciej\documents\codeblocksprojects\gui\include\eventobject.h
+
+1484144440 source:c:\users\maciej\documents\codeblocksprojects\gui\src\eventobject.cpp
+	"EventObject.h"
+
+1486652330 source:c:\users\maciej\documents\codeblocksprojects\gui\src\customwidget.cpp
+	"CustomWidget.h"
+	<stdexcpt.h>
+	<iostream>
+	"GUISystem.h"
+
+1486652842 c:\users\maciej\documents\codeblocksprojects\gui\include\customwidget.h
+	"Event.h"
+	"Button.h"
+
+1486548873 c:\users\maciej\documents\codeblocksprojects\gui\include\handle.h
+
+1484140586 source:c:\users\maciej\documents\codeblocksprojects\gui\include\keyboardevent.cpp
+	"KeyboardEvent.h"
+
+1484140586 vent.h"
+
+1484140599 source:c:\users\maciej\documents\codeblocksprojects\gui\include\mouseevent.cpp
+	"MouseEvent.h"
+
+1484140586 source:c:\users\maciej\documents\codeblocksprojects\gui\src\keyboardevent.cpp
+	"KeyboardEvent.h"
+
+1484140599 source:c:\users\maciej\documents\codeblocksprojects\gui\src\mouseevent.cpp
+	"MouseEvent.h"
+
+1486662397 c:\users\maciej\documents\codeblocksprojects\gui\include\eventlistener.h
+	<functional>
+	"Event.h"
+
+1486658410 source:c:\users\maciej\documents\codeblocksprojects\gui\src\eventlistener.cpp
+	"EventListener.h"
+
+1486658410 ener.h"
+
+1486563926 source:c:\users\maciej\documents\codeblocksprojects\gui\src\main.cpp
+	<iostream>
+	<stdexcpt.h>
+	"App.h"
+	"loggerLocator.h"
+
+1486665717 c:\users\maciej\documents\codeblocksprojects\gui\include\keycodes.h
+
+1486657777 source:c:\users\maciej\documents\codeblocksprojects\gui\src\logger.cpp
+	"Logger.h"
+	<iostream>
+
+1486557715 c:\users\maciej\documents\codeblocksprojects\gui\include\logger.h
+	<string>
+	<ostream>
+	<fstream>
+
+1486568018 source:c:\users\maciej\documents\codeblocksprojects\gui\src\loggerlocator.cpp
+	"loggerLocator.h"
+	"Logger.h"
+
+1486665661 c:\users\maciej\documents\codeblocksprojects\gui\include\loggerlocator.h
+	<ostream>
+
+1512240697 source:/home/nadar/GUI/src/loggerLocator.cpp
+	"loggerLocator.h"
+	"Logger.h"
+
+1512240697 /home/nadar/GUI/include/loggerLocator.h
+	<ostream>
+
+1512240697 /home/nadar/GUI/include/Logger.h
+	<string>
+	<ostream>
+	<fstream>
+
+1512240697 source:/home/nadar/GUI/src/App.cpp
+	"App.h"
+	<stdexcept>
+	<allegro5/allegro_color.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+
+1512240697 /home/nadar/GUI/include/App.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	"Button.h"
+	"CustomWidget.h"
+	"EditBox.h"
+	"Event.h"
+	"events.h"
+	"GUISystem.h"
+	"Handle.h"
+	"Renderer.h"
+	"TextField.h"
+
+1512240697 /home/nadar/GUI/include/Button.h
+	<string>
+	"Renderer.h"
+	"Widget.h"
+
+1512240697 /home/nadar/GUI/include/Renderer.h
+	<string>
+	<allegro5/allegro5.h>
+	<allegro5/allegro_color.h>
+	<allegro5/allegro_font.h>
+
+1512240697 /home/nadar/GUI/include/Widget.h
+	<functional>
+	<string>
+	<forward_list>
+	"Renderer.h"
+	"EventEmitter.h"
+	"Event.h"
+
+1512240697 /home/nadar/GUI/include/EventEmitter.h
+	<string>
+	<functional>
+	<map>
+	"Event.h"
+	"EventListener.h"
+	"events.h"
+
+1512240697 /home/nadar/GUI/include/Event.h
+	"events.h"
+	"EventObject.h"
+
+1512240697 /home/nadar/GUI/include/events.h
+	<functional>
+
+1512240697 /home/nadar/GUI/include/EventObject.h
+
+1512240697 /home/nadar/GUI/include/EventListener.h
+	<functional>
+	"Event.h"
+
+1512240697 /home/nadar/GUI/include/CustomWidget.h
+	"Event.h"
+	"Button.h"
+
+1512240697 /home/nadar/GUI/include/EditBox.h
+	<string>
+	"keycodes.h"
+	"Widget.h"
+	"Handle.h"
+	"Scrollbar.h"
+
+1512240697 /home/nadar/GUI/include/keycodes.h
+
+1512240697 /home/nadar/GUI/include/Handle.h
+
+1512240697 /home/nadar/GUI/include/Scrollbar.h
+	"Button.h"
+	"EventListener.h"
+	"Handle.h"
+	"MouseEvent.h"
+	"Renderer.h"
+	"Widget.h"
+
+1512240697 /home/nadar/GUI/include/MouseEvent.h
+	"EventObject.h"
+
+1512240697 /home/nadar/GUI/include/GUISystem.h
+	<forward_list>
+	<map>
+	<string>
+	"Button.h"
+	"EditBox.h"
+	"Event.h"
+	"EventQueue.h"
+	"Handle.h"
+	"Renderer.h"
+	"Scrollbar.h"
+	"TextField.h"
+	"Widget.h"
+
+1512240697 /home/nadar/GUI/include/EventQueue.h
+	<functional>
+	<utility>
+	<queue>
+	"Event.h"
+	"EventEmitter.h"
+	"events.h"
+
+1512240697 /home/nadar/GUI/include/TextField.h
+	<string>
+	"Renderer.h"
+	"Widget.h"
+
+1512240697 source:/home/nadar/GUI/src/Button.cpp
+	"Button.h"
+	"GUISystem.h"
+	"Renderer.h"
+
+1512240697 source:/home/nadar/GUI/src/CustomWidget.cpp
+	"CustomWidget.h"
+	<stdexcept>
+	<iostream>
+	"GUISystem.h"
+
+1512240697 source:/home/nadar/GUI/src/EditBox.cpp
+	"EditBox.h"
+	<iostream>
+	"GUISystem.h"
+	"Renderer.h"
+
+1512240697 source:/home/nadar/GUI/src/Event.cpp
+	"Event.h"
+
+1512240697 source:/home/nadar/GUI/src/EventEmitter.cpp
+	"EventEmitter.h"
+	<algorithm>
+	<utility>
+	"GUISystem.h"
+	"loggerLocator.h"
+
+1512240697 source:/home/nadar/GUI/src/EventListener.cpp
+	"EventListener.h"
+
+1512240697 source:/home/nadar/GUI/src/EventQueue.cpp
+	"EventQueue.h"
+	<utility>
+
+1512240697 source:/home/nadar/GUI/src/GUISystem.cpp
+	"GUISystem.h"
+	<stdexcept>
+	"loggerLocator.h"
+	"EventObject.h"
+	"KeyboardEvent.h"
+	"MouseEvent.h"
+
+1512240697 /home/nadar/GUI/include/KeyboardEvent.h
+	"EventObject.h"
+
+1512240697 source:/home/nadar/GUI/src/Logger.cpp
+	"Logger.h"
+	<iostream>
+
+1512240697 source:/home/nadar/GUI/src/main.cpp
+	<iostream>
+	<stdexcept>
+	"App.h"
+	"loggerLocator.h"
+
+1512240697 source:/home/nadar/GUI/src/Renderer.cpp
+	"Renderer.h"
+	<allegro5/allegro_primitives.h>
+
+1512240697 source:/home/nadar/GUI/src/Scrollbar.cpp
+	"Scrollbar.h"
+	<iostream>
+	"GUISystem.h"
+
+1512240697 source:/home/nadar/GUI/src/TextField.cpp
+	"TextField.h"
+
+1512240697 source:/home/nadar/GUI/src/Widget.cpp
+	"Widget.h"
+	"GUISystem.h"
+	"loggerLocator.h"
+
+1478135518 /usr/include/c++/5.4.0/ostream
+	<ios>
+	<bits/ostream_insert.h>
+	<bits/ostream.tcc>
+
+1478135518 /usr/include/c++/5.4.0/ios
+	<iosfwd>
+	<exception>
+	<bits/char_traits.h>
+	<bits/localefwd.h>
+	<bits/ios_base.h>
+	<streambuf>
+	<bits/basic_ios.h>
+
+1478135518 /usr/include/c++/5.4.0/iosfwd
+	<bits/c++config.h>
+	<bits/stringfwd.h>
+	<bits/postypes.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stringfwd.h
+	<bits/c++config.h>
+	<bits/memoryfwd.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/memoryfwd.h
+	<bits/c++config.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/postypes.h
+	<cwchar>
+	<stdint.h>
+
+1478135518 /usr/include/c++/5.4.0/cwchar
+	<bits/c++config.h>
+	<wchar.h>
+
+1478135519 /usr/include/c++/5.4.0/exception
+	<bits/c++config.h>
+	<bits/atomic_lockfree_defines.h>
+	<bits/exception_ptr.h>
+	<bits/nested_exception.h>
+
+1478135519 /usr/include/c++/5.4.0/bits/atomic_lockfree_defines.h
+
+1478135519 /usr/include/c++/5.4.0/bits/exception_ptr.h
+	<bits/c++config.h>
+	<bits/exception_defines.h>
+
+1478135519 /usr/include/c++/5.4.0/bits/exception_defines.h
+
+1478135519 /usr/include/c++/5.4.0/bits/nested_exception.h
+	<bits/c++0x_warning.h>
+	<bits/c++config.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/c++0x_warning.h
+
+1478135516 /usr/include/c++/5.4.0/bits/char_traits.h
+	<bits/stl_algobase.h>
+	<bits/postypes.h>
+	<cwchar>
+	<cstdint>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_algobase.h
+	<bits/c++config.h>
+	<bits/functexcept.h>
+	<bits/cpp_type_traits.h>
+	<ext/type_traits.h>
+	<ext/numeric_traits.h>
+	<bits/stl_pair.h>
+	<bits/stl_iterator_base_types.h>
+	<bits/stl_iterator_base_funcs.h>
+	<bits/stl_iterator.h>
+	<bits/concept_check.h>
+	<debug/debug.h>
+	<bits/move.h>
+	<bits/predefined_ops.h>
+	<parallel/algobase.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/functexcept.h
+	<bits/c++config.h>
+	<bits/exception_defines.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/cpp_type_traits.h
+	<bits/c++config.h>
+
+1478135517 /usr/include/c++/5.4.0/ext/type_traits.h
+	<bits/c++config.h>
+	<bits/cpp_type_traits.h>
+
+1478135517 /usr/include/c++/5.4.0/ext/numeric_traits.h
+	<bits/cpp_type_traits.h>
+	<ext/type_traits.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_pair.h
+	<bits/move.h>
+	<type_traits>
+
+1478135517 /usr/include/c++/5.4.0/bits/move.h
+	<bits/c++config.h>
+	<bits/concept_check.h>
+	<type_traits>
+
+1478135516 /usr/include/c++/5.4.0/bits/concept_check.h
+	<bits/c++config.h>
+	<bits/boost_concept_check.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/boost_concept_check.h
+	<bits/c++config.h>
+	<bits/stl_iterator_base_types.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_iterator_base_types.h
+	<bits/c++config.h>
+	<type_traits>
+
+1478135518 /usr/include/c++/5.4.0/type_traits
+	<bits/c++0x_warning.h>
+	<bits/c++config.h>
+	<cstdint>
+
+1478135518 /usr/include/c++/5.4.0/cstdint
+	<bits/c++0x_warning.h>
+	<bits/c++config.h>
+	<stdint.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_iterator_base_funcs.h
+	<bits/concept_check.h>
+	<debug/debug.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/debug.h
+	<debug/macros.h>
+	<debug/functions.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/macros.h
+
+1478135518 /usr/include/c++/5.4.0/debug/functions.h
+	<bits/c++config.h>
+	<bits/stl_iterator_base_types.h>
+	<bits/cpp_type_traits.h>
+	<bits/move.h>
+	<bits/stl_function.h>
+	<type_traits>
+	<debug/formatter.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_function.h
+	<bits/move.h>
+	<backward/binders.h>
+
+1478135517 /usr/include/c++/5.4.0/backward/binders.h
+
+1478135518 /usr/include/c++/5.4.0/debug/formatter.h
+	<bits/c++config.h>
+	<bits/cpp_type_traits.h>
+	<typeinfo>
+
+1478135519 /usr/include/c++/5.4.0/typeinfo
+	<exception>
+	<bits/hash_bytes.h>
+
+1478135519 /usr/include/c++/5.4.0/bits/hash_bytes.h
+	<bits/c++config.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_iterator.h
+	<bits/cpp_type_traits.h>
+	<ext/type_traits.h>
+	<bits/move.h>
+	<bits/ptr_traits.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/ptr_traits.h
+	<type_traits>
+
+1478135517 /usr/include/c++/5.4.0/bits/predefined_ops.h
+
+1478135518 /usr/include/c++/5.4.0/parallel/algobase.h
+	<bits/stl_algobase.h>
+	<parallel/base.h>
+	<parallel/algorithmfwd.h>
+	<parallel/find.h>
+	<parallel/find_selectors.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/base.h
+	<bits/c++config.h>
+	<bits/stl_function.h>
+	<omp.h>
+	<parallel/features.h>
+	<parallel/basic_iterator.h>
+	<parallel/parallel.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/features.h
+
+1478135518 /usr/include/c++/5.4.0/parallel/basic_iterator.h
+	<bits/c++config.h>
+	<bits/stl_iterator_base_types.h>
+	<bits/stl_iterator_base_funcs.h>
+	<bits/stl_iterator.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/parallel.h
+	<parallel/features.h>
+	<parallel/compiletime_settings.h>
+	<parallel/types.h>
+	<parallel/tags.h>
+	<parallel/settings.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/compiletime_settings.h
+	<cstdio>
+
+1478135518 /usr/include/c++/5.4.0/cstdio
+	<bits/c++config.h>
+	<stdio.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/types.h
+	<cstdlib>
+	<limits>
+	<tr1/cstdint>
+
+1478135518 /usr/include/c++/5.4.0/cstdlib
+	<bits/c++config.h>
+	<stdlib.h>
+
+1478135518 /usr/include/c++/5.4.0/limits
+	<bits/c++config.h>
+
+1478135518 /usr/include/c++/5.4.0/tr1/cstdint
+	<bits/c++config.h>
+	<stdint.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/tags.h
+	<omp.h>
+	<parallel/types.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/settings.h
+	<parallel/types.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/algorithmfwd.h
+	<parallel/tags.h>
+	<parallel/settings.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/find.h
+	<bits/stl_algobase.h>
+	<parallel/features.h>
+	<parallel/parallel.h>
+	<parallel/compatibility.h>
+	<parallel/equally_split.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/compatibility.h
+	<parallel/types.h>
+	<parallel/base.h>
+	<sched.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/equally_split.h
+
+1478135518 /usr/include/c++/5.4.0/parallel/find_selectors.h
+	<parallel/tags.h>
+	<parallel/basic_iterator.h>
+	<bits/stl_pair.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/localefwd.h
+	<bits/c++config.h>
+	<bits/c++locale.h>
+	<iosfwd>
+	<cctype>
+
+1478135518 /usr/include/c++/5.4.0/cctype
+	<bits/c++config.h>
+	<ctype.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/ios_base.h
+	<ext/atomicity.h>
+	<bits/localefwd.h>
+	<bits/locale_classes.h>
+	<stdexcept>
+	<system_error>
+
+1478135517 /usr/include/c++/5.4.0/ext/atomicity.h
+	<bits/c++config.h>
+	<bits/gthr.h>
+	<bits/atomic_word.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/locale_classes.h
+	<bits/localefwd.h>
+	<string>
+	<ext/atomicity.h>
+	<bits/locale_classes.tcc>
+
+1478135518 /usr/include/c++/5.4.0/string
+	<bits/c++config.h>
+	<bits/stringfwd.h>
+	<bits/char_traits.h>
+	<bits/allocator.h>
+	<bits/cpp_type_traits.h>
+	<bits/localefwd.h>
+	<bits/ostream_insert.h>
+	<bits/stl_iterator_base_types.h>
+	<bits/stl_iterator_base_funcs.h>
+	<bits/stl_iterator.h>
+	<bits/stl_function.h>
+	<ext/numeric_traits.h>
+	<bits/stl_algobase.h>
+	<bits/range_access.h>
+	<bits/basic_string.h>
+	<bits/basic_string.tcc>
+
+1478135516 /usr/include/c++/5.4.0/bits/allocator.h
+	<bits/c++allocator.h>
+	<bits/memoryfwd.h>
+	<type_traits>
+
+1478135517 /usr/include/c++/5.4.0/bits/ostream_insert.h
+	<iosfwd>
+	<bits/cxxabi_forced.h>
+
+1478135519 /usr/include/c++/5.4.0/bits/cxxabi_forced.h
+
+1478135517 /usr/include/c++/5.4.0/bits/range_access.h
+	<initializer_list>
+
+1478135519 /usr/include/c++/5.4.0/initializer_list
+	<bits/c++0x_warning.h>
+	<bits/c++config.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/basic_string.h
+	<ext/atomicity.h>
+	<ext/alloc_traits.h>
+	<debug/debug.h>
+	<initializer_list>
+	<ext/string_conversions.h>
+	<bits/functional_hash.h>
+
+1478135517 /usr/include/c++/5.4.0/ext/alloc_traits.h
+	<bits/move.h>
+	<bits/alloc_traits.h>
+	<bits/allocator.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/alloc_traits.h
+	<bits/memoryfwd.h>
+	<bits/ptr_traits.h>
+	<ext/numeric_traits.h>
+
+1478135517 /usr/include/c++/5.4.0/ext/string_conversions.h
+	<bits/c++0x_warning.h>
+	<bits/c++config.h>
+	<ext/numeric_traits.h>
+	<bits/functexcept.h>
+	<cstdlib>
+	<cwchar>
+	<cstdio>
+	<cerrno>
+
+1478135518 /usr/include/c++/5.4.0/cerrno
+	<errno.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/functional_hash.h
+	<bits/hash_bytes.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/basic_string.tcc
+	<bits/cxxabi_forced.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/locale_classes.tcc
+
+1478135518 /usr/include/c++/5.4.0/stdexcept
+	<exception>
+	<string>
+
+1478135518 /usr/include/c++/5.4.0/system_error
+	<bits/c++0x_warning.h>
+	<bits/c++config.h>
+	<bits/error_constants.h>
+	<iosfwd>
+	<stdexcept>
+	<bits/functional_hash.h>
+
+1478135518 /usr/include/c++/5.4.0/streambuf
+	<bits/c++config.h>
+	<iosfwd>
+	<bits/localefwd.h>
+	<bits/ios_base.h>
+	<bits/cpp_type_traits.h>
+	<ext/type_traits.h>
+	<bits/streambuf.tcc>
+
+1478135517 /usr/include/c++/5.4.0/bits/streambuf.tcc
+
+1478135516 /usr/include/c++/5.4.0/bits/basic_ios.h
+	<bits/localefwd.h>
+	<bits/locale_classes.h>
+	<bits/locale_facets.h>
+	<bits/streambuf_iterator.h>
+	<bits/move.h>
+	<bits/basic_ios.tcc>
+
+1478135516 /usr/include/c++/5.4.0/bits/locale_facets.h
+	<cwctype>
+	<cctype>
+	<bits/ctype_base.h>
+	<iosfwd>
+	<bits/ios_base.h>
+	<streambuf>
+	<bits/cpp_type_traits.h>
+	<ext/type_traits.h>
+	<ext/numeric_traits.h>
+	<bits/streambuf_iterator.h>
+	<bits/ctype_inline.h>
+	<bits/locale_facets.tcc>
+
+1478135518 /usr/include/c++/5.4.0/cwctype
+	<bits/c++config.h>
+	<stddef.h>
+	<wctype.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/streambuf_iterator.h
+	<streambuf>
+	<debug/debug.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/locale_facets.tcc
+
+1478135516 /usr/include/c++/5.4.0/bits/basic_ios.tcc
+
+1478135517 /usr/include/c++/5.4.0/bits/ostream.tcc
+	<bits/cxxabi_forced.h>
+
+1478135518 /usr/include/c++/5.4.0/fstream
+	<istream>
+	<ostream>
+	<bits/codecvt.h>
+	<cstdio>
+	<bits/basic_file.h>
+	<string>
+	<bits/fstream.tcc>
+
+1478135518 /usr/include/c++/5.4.0/istream
+	<ios>
+	<ostream>
+	<bits/istream.tcc>
+
+1478135516 /usr/include/c++/5.4.0/bits/istream.tcc
+	<bits/cxxabi_forced.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/codecvt.h
+
+1478135516 /usr/include/c++/5.4.0/bits/fstream.tcc
+	<bits/cxxabi_forced.h>
+	<bits/move.h>
+
+1478135518 /usr/include/c++/5.4.0/functional
+	<bits/c++config.h>
+	<bits/stl_function.h>
+	<typeinfo>
+	<new>
+	<tuple>
+	<type_traits>
+	<bits/functexcept.h>
+	<bits/functional_hash.h>
+
+1478135519 /usr/include/c++/5.4.0/new
+	<bits/c++config.h>
+	<exception>
+
+1478135518 /usr/include/c++/5.4.0/tuple
+	<bits/c++0x_warning.h>
+	<utility>
+	<array>
+	<bits/uses_allocator.h>
+
+1478135518 /usr/include/c++/5.4.0/utility
+	<bits/c++config.h>
+	<bits/stl_relops.h>
+	<bits/stl_pair.h>
+	<bits/move.h>
+	<initializer_list>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_relops.h
+
+1478135518 /usr/include/c++/5.4.0/array
+	<bits/c++0x_warning.h>
+	<stdexcept>
+	<bits/stl_algobase.h>
+	<bits/range_access.h>
+	<debug/array>
+	<profile/array>
+
+1478135518 /usr/include/c++/5.4.0/debug/array
+	<debug/safe_sequence.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_sequence.h
+	<debug/debug.h>
+	<debug/macros.h>
+	<debug/functions.h>
+	<debug/safe_base.h>
+	<debug/safe_sequence.tcc>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_base.h
+	<ext/concurrence.h>
+
+1478135517 /usr/include/c++/5.4.0/ext/concurrence.h
+	<exception>
+	<bits/gthr.h>
+	<bits/functexcept.h>
+	<bits/cpp_type_traits.h>
+	<ext/type_traits.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_sequence.tcc
+
+1478135518 /usr/include/c++/5.4.0/profile/array
+
+1478135517 /usr/include/c++/5.4.0/bits/uses_allocator.h
+	<bits/c++0x_warning.h>
+	<type_traits>
+
+1478135518 /usr/include/c++/5.4.0/forward_list
+	<bits/c++0x_warning.h>
+	<bits/forward_list.h>
+	<bits/range_access.h>
+	<bits/forward_list.tcc>
+	<debug/forward_list>
+	<profile/forward_list>
+
+1478135516 /usr/include/c++/5.4.0/bits/forward_list.h
+	<initializer_list>
+	<bits/stl_iterator_base_types.h>
+	<bits/stl_iterator.h>
+	<bits/stl_algobase.h>
+	<bits/stl_function.h>
+	<bits/allocator.h>
+	<ext/alloc_traits.h>
+	<ext/aligned_buffer.h>
+
+1478135517 /usr/include/c++/5.4.0/ext/aligned_buffer.h
+	<type_traits>
+	<bits/c++0x_warning.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/forward_list.tcc
+
+1478135518 /usr/include/c++/5.4.0/debug/forward_list
+	<forward_list>
+	<debug/safe_sequence.h>
+	<debug/safe_container.h>
+	<debug/safe_iterator.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_container.h
+	<ext/alloc_traits.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_iterator.h
+	<debug/debug.h>
+	<debug/macros.h>
+	<debug/functions.h>
+	<debug/safe_base.h>
+	<bits/stl_pair.h>
+	<ext/type_traits.h>
+	<debug/safe_iterator.tcc>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_iterator.tcc
+
+1478135518 /usr/include/c++/5.4.0/profile/forward_list
+	<bits/c++0x_warning.h>
+	<forward_list>
+
+1478135518 /usr/include/c++/5.4.0/map
+	<bits/stl_tree.h>
+	<bits/stl_map.h>
+	<bits/stl_multimap.h>
+	<bits/range_access.h>
+	<debug/map>
+	<profile/map>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_tree.h
+	<bits/stl_algobase.h>
+	<bits/allocator.h>
+	<bits/stl_function.h>
+	<bits/cpp_type_traits.h>
+	<ext/alloc_traits.h>
+	<ext/aligned_buffer.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_map.h
+	<bits/functexcept.h>
+	<bits/concept_check.h>
+	<initializer_list>
+	<tuple>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_multimap.h
+	<bits/concept_check.h>
+	<initializer_list>
+
+1478135518 /usr/include/c++/5.4.0/debug/map
+	<map>
+	<debug/map.h>
+	<debug/multimap.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/map.h
+	<debug/safe_sequence.h>
+	<debug/safe_container.h>
+	<debug/safe_iterator.h>
+	<utility>
+
+1478135518 /usr/include/c++/5.4.0/debug/multimap.h
+	<debug/safe_sequence.h>
+	<debug/safe_container.h>
+	<debug/safe_iterator.h>
+	<utility>
+
+1478135518 /usr/include/c++/5.4.0/profile/map
+	<map>
+	<profile/map.h>
+	<profile/multimap.h>
+
+1478135518 /usr/include/c++/5.4.0/profile/map.h
+	<profile/base.h>
+	<profile/ordered_base.h>
+
+1478135518 /usr/include/c++/5.4.0/profile/base.h
+	<functional>
+	<profile/impl/profiler.h>
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler.h
+	<bits/c++config.h>
+	"profile/impl/profiler_hash_func.h"
+	"profile/impl/profiler_hashtable_size.h"
+	"profile/impl/profiler_map_to_unordered_map.h"
+	"profile/impl/profiler_vector_size.h"
+	"profile/impl/profiler_vector_to_list.h"
+	"profile/impl/profiler_list_to_slist.h"
+	"profile/impl/profiler_list_to_vector.h"
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_hash_func.h
+	"profile/impl/profiler.h"
+	"profile/impl/profiler_node.h"
+	"profile/impl/profiler_trace.h"
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_node.h
+	<cstdio>
+	<vector>
+	<execinfo.h>
+
+1478135518 /usr/include/c++/5.4.0/vector
+	<bits/stl_algobase.h>
+	<bits/allocator.h>
+	<bits/stl_construct.h>
+	<bits/stl_uninitialized.h>
+	<bits/stl_vector.h>
+	<bits/stl_bvector.h>
+	<bits/range_access.h>
+	<bits/vector.tcc>
+	<debug/vector>
+	<profile/vector>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_construct.h
+	<new>
+	<bits/move.h>
+	<ext/alloc_traits.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_uninitialized.h
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_vector.h
+	<bits/stl_iterator_base_funcs.h>
+	<bits/functexcept.h>
+	<bits/concept_check.h>
+	<initializer_list>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_bvector.h
+	<initializer_list>
+	<bits/stl_vector.h>
+	<bits/functional_hash.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/vector.tcc
+
+1478135518 /usr/include/c++/5.4.0/debug/vector
+	<vector>
+	<utility>
+	<debug/safe_sequence.h>
+	<debug/safe_container.h>
+	<debug/safe_iterator.h>
+
+1478135518 /usr/include/c++/5.4.0/profile/vector
+	<vector>
+	<utility>
+	<profile/base.h>
+	<profile/iterator_tracker.h>
+
+1478135518 /usr/include/c++/5.4.0/profile/iterator_tracker.h
+	<ext/type_traits.h>
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_trace.h
+	<cstdio>
+	<cerrno>
+	<cstdlib>
+	<unordered_map>
+	<tr1/unordered_map>
+	<ext/concurrence.h>
+	<fstream>
+	<string>
+	<utility>
+	<vector>
+	"profile/impl/profiler_algos.h"
+	"profile/impl/profiler_state.h"
+	"profile/impl/profiler_node.h"
+
+1478135518 /usr/include/c++/5.4.0/unordered_map
+	<bits/c++0x_warning.h>
+	<utility>
+	<type_traits>
+	<initializer_list>
+	<tuple>
+	<bits/allocator.h>
+	<ext/alloc_traits.h>
+	<ext/aligned_buffer.h>
+	<bits/stl_function.h>
+	<bits/functional_hash.h>
+	<bits/hashtable.h>
+	<bits/unordered_map.h>
+	<bits/range_access.h>
+	<debug/unordered_map>
+	<profile/unordered_map>
+
+1478135516 /usr/include/c++/5.4.0/bits/hashtable.h
+	<bits/hashtable_policy.h>
+
+1478135516 /usr/include/c++/5.4.0/bits/hashtable_policy.h
+
+1478135517 /usr/include/c++/5.4.0/bits/unordered_map.h
+
+1478135518 /usr/include/c++/5.4.0/debug/unordered_map
+	<bits/c++0x_warning.h>
+	<unordered_map>
+	<debug/safe_unordered_container.h>
+	<debug/safe_container.h>
+	<debug/safe_iterator.h>
+	<debug/safe_local_iterator.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_unordered_container.h
+	<debug/debug.h>
+	<debug/macros.h>
+	<debug/functions.h>
+	<debug/safe_unordered_base.h>
+	<debug/safe_unordered_container.tcc>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_unordered_base.h
+	<debug/safe_base.h>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_unordered_container.tcc
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_local_iterator.h
+	<debug/debug.h>
+	<debug/macros.h>
+	<debug/functions.h>
+	<debug/safe_unordered_base.h>
+	<ext/type_traits.h>
+	<debug/safe_local_iterator.tcc>
+
+1478135518 /usr/include/c++/5.4.0/debug/safe_local_iterator.tcc
+
+1478135518 /usr/include/c++/5.4.0/profile/unordered_map
+	<bits/c++0x_warning.h>
+	<unordered_map>
+	<profile/base.h>
+	<profile/unordered_base.h>
+
+1478135518 /usr/include/c++/5.4.0/profile/unordered_base.h
+
+1478135518 /usr/include/c++/5.4.0/tr1/unordered_map
+	<utility>
+	<bits/stl_algobase.h>
+	<bits/allocator.h>
+	<bits/stl_function.h>
+	<bits/stringfwd.h>
+	<tr1/type_traits>
+	<tr1/functional_hash.h>
+	<tr1/hashtable.h>
+	<tr1/unordered_map.h>
+
+1478135518 /usr/include/c++/5.4.0/tr1/type_traits
+	<bits/c++config.h>
+
+1478135518 /usr/include/c++/5.4.0/tr1/functional_hash.h
+
+1478135518 /usr/include/c++/5.4.0/tr1/hashtable.h
+	<tr1/hashtable_policy.h>
+
+1478135518 /usr/include/c++/5.4.0/tr1/hashtable_policy.h
+
+1478135518 /usr/include/c++/5.4.0/tr1/unordered_map.h
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_algos.h
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_state.h
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_hashtable_size.h
+	"profile/impl/profiler.h"
+	"profile/impl/profiler_node.h"
+	"profile/impl/profiler_trace.h"
+	"profile/impl/profiler_state.h"
+	"profile/impl/profiler_container_size.h"
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_container_size.h
+	<sstream>
+	"profile/impl/profiler.h"
+	"profile/impl/profiler_node.h"
+	"profile/impl/profiler_trace.h"
+
+1478135518 /usr/include/c++/5.4.0/sstream
+	<istream>
+	<ostream>
+	<bits/sstream.tcc>
+
+1478135517 /usr/include/c++/5.4.0/bits/sstream.tcc
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_map_to_unordered_map.h
+	"profile/impl/profiler.h"
+	"profile/impl/profiler_node.h"
+	"profile/impl/profiler_trace.h"
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_vector_size.h
+	"profile/impl/profiler.h"
+	"profile/impl/profiler_node.h"
+	"profile/impl/profiler_trace.h"
+	"profile/impl/profiler_state.h"
+	"profile/impl/profiler_container_size.h"
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_vector_to_list.h
+	"profile/impl/profiler.h"
+	"profile/impl/profiler_node.h"
+	"profile/impl/profiler_trace.h"
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_list_to_slist.h
+	"profile/impl/profiler.h"
+	"profile/impl/profiler_node.h"
+	"profile/impl/profiler_trace.h"
+
+1478135518 /usr/include/c++/5.4.0/profile/impl/profiler_list_to_vector.h
+	<sstream>
+	"profile/impl/profiler.h"
+	"profile/impl/profiler_node.h"
+	"profile/impl/profiler_trace.h"
+
+1478135518 /usr/include/c++/5.4.0/profile/ordered_base.h
+
+1478135518 /usr/include/c++/5.4.0/profile/multimap.h
+	<profile/base.h>
+	<profile/ordered_base.h>
+
+1478135518 /usr/include/c++/5.4.0/queue
+	<deque>
+	<vector>
+	<bits/stl_heap.h>
+	<bits/stl_function.h>
+	<bits/stl_queue.h>
+
+1478135518 /usr/include/c++/5.4.0/deque
+	<bits/stl_algobase.h>
+	<bits/allocator.h>
+	<bits/stl_construct.h>
+	<bits/stl_uninitialized.h>
+	<bits/stl_deque.h>
+	<bits/range_access.h>
+	<bits/deque.tcc>
+	<debug/deque>
+	<profile/deque>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_deque.h
+	<bits/concept_check.h>
+	<bits/stl_iterator_base_types.h>
+	<bits/stl_iterator_base_funcs.h>
+	<initializer_list>
+
+1478135516 /usr/include/c++/5.4.0/bits/deque.tcc
+
+1478135518 /usr/include/c++/5.4.0/debug/deque
+	<deque>
+	<debug/safe_sequence.h>
+	<debug/safe_container.h>
+	<debug/safe_iterator.h>
+
+1478135518 /usr/include/c++/5.4.0/profile/deque
+	<deque>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_heap.h
+	<debug/debug.h>
+	<bits/move.h>
+	<bits/predefined_ops.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_queue.h
+	<bits/concept_check.h>
+	<debug/debug.h>
+	<bits/uses_allocator.h>
+
+1478135518 /usr/include/c++/5.4.0/iostream
+	<bits/c++config.h>
+	<ostream>
+	<istream>
+
+1478135518 /usr/include/c++/5.4.0/algorithm
+	<utility>
+	<bits/stl_algobase.h>
+	<bits/stl_algo.h>
+	<parallel/algorithm>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_algo.h
+	<cstdlib>
+	<bits/algorithmfwd.h>
+	<bits/stl_heap.h>
+	<bits/stl_tempbuf.h>
+	<bits/predefined_ops.h>
+	<random>
+
+1478135516 /usr/include/c++/5.4.0/bits/algorithmfwd.h
+	<bits/c++config.h>
+	<bits/stl_pair.h>
+	<bits/stl_iterator_base_types.h>
+	<initializer_list>
+	<parallel/algorithmfwd.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_tempbuf.h
+	<bits/stl_algobase.h>
+	<bits/stl_construct.h>
+
+1478135518 /usr/include/c++/5.4.0/random
+	<bits/c++0x_warning.h>
+	<cmath>
+	<cstdlib>
+	<string>
+	<iosfwd>
+	<limits>
+	<debug/debug.h>
+	<type_traits>
+	<cstdint>
+	<bits/random.h>
+	<bits/opt_random.h>
+	<bits/random.tcc>
+
+1478135518 /usr/include/c++/5.4.0/cmath
+	<bits/c++config.h>
+	<bits/cpp_type_traits.h>
+	<ext/type_traits.h>
+	<math.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/random.h
+	<vector>
+	<bits/uniform_int_dist.h>
+
+1478135517 /usr/include/c++/5.4.0/bits/uniform_int_dist.h
+	<type_traits>
+	<limits>
+
+1478135517 /usr/include/c++/5.4.0/bits/random.tcc
+	<numeric>
+
+1478135518 /usr/include/c++/5.4.0/numeric
+	<bits/c++config.h>
+	<bits/stl_iterator_base_types.h>
+	<bits/stl_numeric.h>
+	<parallel/numeric>
+
+1478135517 /usr/include/c++/5.4.0/bits/stl_numeric.h
+	<bits/concept_check.h>
+	<debug/debug.h>
+	<bits/move.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/numeric
+	<numeric>
+	<bits/stl_function.h>
+	<parallel/numericfwd.h>
+	<parallel/iterator.h>
+	<parallel/for_each.h>
+	<parallel/for_each_selectors.h>
+	<parallel/partial_sum.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/numericfwd.h
+	<parallel/tags.h>
+	<parallel/settings.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/iterator.h
+	<parallel/basic_iterator.h>
+	<bits/stl_pair.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/for_each.h
+	<parallel/settings.h>
+	<parallel/par_loop.h>
+	<parallel/omp_loop.h>
+	<parallel/workstealing.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/par_loop.h
+	<omp.h>
+	<parallel/settings.h>
+	<parallel/base.h>
+	<parallel/equally_split.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/omp_loop.h
+	<omp.h>
+	<parallel/settings.h>
+	<parallel/basic_iterator.h>
+	<parallel/base.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/workstealing.h
+	<parallel/parallel.h>
+	<parallel/random_number.h>
+	<parallel/compatibility.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/random_number.h
+	<parallel/types.h>
+	<tr1/random>
+	<limits>
+
+1478135518 /usr/include/c++/5.4.0/tr1/random
+	<cmath>
+	<cstdio>
+	<cstdlib>
+	<string>
+	<iosfwd>
+	<limits>
+	<ext/type_traits.h>
+	<ext/numeric_traits.h>
+	<bits/concept_check.h>
+	<debug/debug.h>
+	<tr1/type_traits>
+	<tr1/cmath>
+	<tr1/random.h>
+	<tr1/random.tcc>
+
+1478135518 /usr/include/c++/5.4.0/tr1/cmath
+	<cmath>
+	<bits/stl_algobase.h>
+	<limits>
+	<tr1/type_traits>
+	<tr1/gamma.tcc>
+	<tr1/bessel_function.tcc>
+	<tr1/beta_function.tcc>
+	<tr1/ell_integral.tcc>
+	<tr1/exp_integral.tcc>
+	<tr1/hypergeometric.tcc>
+	<tr1/legendre_function.tcc>
+	<tr1/modified_bessel_func.tcc>
+	<tr1/poly_hermite.tcc>
+	<tr1/poly_laguerre.tcc>
+	<tr1/riemann_zeta.tcc>
+
+1478135518 /usr/include/c++/5.4.0/tr1/gamma.tcc
+	"special_function_util.h"
+
+1478135518 /usr/include/c++/5.4.0/tr1/special_function_util.h
+
+1478135518 /usr/include/c++/5.4.0/tr1/bessel_function.tcc
+	"special_function_util.h"
+
+1478135518 /usr/include/c++/5.4.0/tr1/beta_function.tcc
+
+1478135518 /usr/include/c++/5.4.0/tr1/ell_integral.tcc
+
+1478135518 /usr/include/c++/5.4.0/tr1/exp_integral.tcc
+	"special_function_util.h"
+
+1478135518 /usr/include/c++/5.4.0/tr1/hypergeometric.tcc
+
+1478135518 /usr/include/c++/5.4.0/tr1/legendre_function.tcc
+	"special_function_util.h"
+
+1478135518 /usr/include/c++/5.4.0/tr1/modified_bessel_func.tcc
+	"special_function_util.h"
+
+1478135518 /usr/include/c++/5.4.0/tr1/poly_hermite.tcc
+
+1478135518 /usr/include/c++/5.4.0/tr1/poly_laguerre.tcc
+
+1478135518 /usr/include/c++/5.4.0/tr1/riemann_zeta.tcc
+	"special_function_util.h"
+
+1478135518 /usr/include/c++/5.4.0/tr1/random.h
+
+1478135518 /usr/include/c++/5.4.0/tr1/random.tcc
+
+1478135518 /usr/include/c++/5.4.0/parallel/for_each_selectors.h
+	<parallel/basic_iterator.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/partial_sum.h
+	<omp.h>
+	<new>
+	<bits/stl_algobase.h>
+	<parallel/parallel.h>
+	<parallel/numericfwd.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/algorithm
+	<algorithm>
+	<parallel/algorithmfwd.h>
+	<parallel/algobase.h>
+	<parallel/algo.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/algo.h
+	<parallel/algorithmfwd.h>
+	<bits/stl_algobase.h>
+	<bits/stl_algo.h>
+	<parallel/iterator.h>
+	<parallel/base.h>
+	<parallel/sort.h>
+	<parallel/workstealing.h>
+	<parallel/par_loop.h>
+	<parallel/omp_loop.h>
+	<parallel/omp_loop_static.h>
+	<parallel/for_each_selectors.h>
+	<parallel/for_each.h>
+	<parallel/find.h>
+	<parallel/find_selectors.h>
+	<parallel/search.h>
+	<parallel/random_shuffle.h>
+	<parallel/partition.h>
+	<parallel/merge.h>
+	<parallel/unique_copy.h>
+	<parallel/set_operations.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/sort.h
+	<parallel/basic_iterator.h>
+	<parallel/features.h>
+	<parallel/parallel.h>
+	<parallel/checkers.h>
+	<parallel/multiway_mergesort.h>
+	<parallel/quicksort.h>
+	<parallel/balanced_quicksort.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/checkers.h
+	<cstdio>
+	<bits/stl_algobase.h>
+	<bits/stl_function.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/multiway_mergesort.h
+	<vector>
+	<parallel/basic_iterator.h>
+	<bits/stl_algo.h>
+	<parallel/parallel.h>
+	<parallel/multiway_merge.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/multiway_merge.h
+	<vector>
+	<bits/stl_algo.h>
+	<parallel/features.h>
+	<parallel/parallel.h>
+	<parallel/losertree.h>
+	<parallel/multiseq_selection.h>
+	<parallel/checkers.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/losertree.h
+	<bits/stl_algobase.h>
+	<bits/stl_function.h>
+	<parallel/features.h>
+	<parallel/base.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/multiseq_selection.h
+	<vector>
+	<queue>
+	<bits/stl_algo.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/quicksort.h
+	<parallel/parallel.h>
+	<parallel/partition.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/partition.h
+	<parallel/basic_iterator.h>
+	<parallel/sort.h>
+	<parallel/random_number.h>
+	<bits/stl_algo.h>
+	<parallel/parallel.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/balanced_quicksort.h
+	<parallel/basic_iterator.h>
+	<bits/stl_algo.h>
+	<bits/stl_function.h>
+	<parallel/settings.h>
+	<parallel/partition.h>
+	<parallel/random_number.h>
+	<parallel/queue.h>
+	<parallel/checkers.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/queue.h
+	<parallel/types.h>
+	<parallel/base.h>
+	<parallel/compatibility.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/omp_loop_static.h
+	<omp.h>
+	<parallel/settings.h>
+	<parallel/basic_iterator.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/search.h
+	<bits/stl_algobase.h>
+	<parallel/parallel.h>
+	<parallel/equally_split.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/random_shuffle.h
+	<limits>
+	<bits/stl_numeric.h>
+	<parallel/parallel.h>
+	<parallel/random_number.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/merge.h
+	<parallel/basic_iterator.h>
+	<bits/stl_algo.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/unique_copy.h
+	<parallel/parallel.h>
+	<parallel/multiseq_selection.h>
+
+1478135518 /usr/include/c++/5.4.0/parallel/set_operations.h
+	<omp.h>
+	<parallel/settings.h>
+	<parallel/multiseq_selection.h>
+
+1510432254 /usr/include/allegro5/allegro_color.h
+	"allegro5/allegro.h"
+
+1510432228 /usr/include/allegro5/allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1510432254 /usr/include/allegro5/base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1497646305 /usr/include/errno.h
+	<features.h>
+	<bits/errno.h>
+
+1497646282 /usr/include/features.h
+	<stdc-predef.h>
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1497646282 /usr/include/stdc-predef.h
+
+1497646316 /usr/include/sys/cdefs.h
+	<features.h>
+	<bits/wordsize.h>
+
+1497646305 /usr/include/bits/wordsize.h
+
+1497646282 /usr/include/gnu/stubs.h
+	<gnu/stubs-32.h>
+	<gnu/stubs-64.h>
+	<gnu/stubs-x32.h>
+
+1497646453 /usr/include/gnu/stubs-32.h
+
+1497646344 /usr/include/gnu/stubs-64.h
+
+1497646536 /usr/include/gnu/stubs-x32.h
+
+1497646305 /usr/include/bits/errno.h
+	<linux/errno.h>
+
+1480705308 /usr/include/linux/errno.h
+	<asm/errno.h>
+
+1480705321 /usr/include/asm/errno.h
+	<asm-generic/errno.h>
+
+1480705298 /usr/include/asm-generic/errno.h
+	<asm-generic/errno-base.h>
+
+1480705298 /usr/include/asm-generic/errno-base.h
+
+1497646282 /usr/include/limits.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/posix1_lim.h>
+	<bits/posix2_lim.h>
+	<bits/xopen_lim.h>
+
+1497646312 /usr/include/bits/posix1_lim.h
+	<bits/local_lim.h>
+
+1497646312 /usr/include/bits/local_lim.h
+	<linux/limits.h>
+
+1480705312 /usr/include/linux/limits.h
+
+1497646312 /usr/include/bits/posix2_lim.h
+
+1497646282 /usr/include/bits/xopen_lim.h
+	<bits/stdio_lim.h>
+	<bits/wordsize.h>
+
+1497646305 /usr/include/bits/stdio_lim.h
+
+1497646305 /usr/include/stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib-bsearch.h>
+	<bits/stdlib-float.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1497646312 /usr/include/bits/waitflags.h
+
+1497646312 /usr/include/bits/waitstatus.h
+	<endian.h>
+
+1497646309 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+	<bits/byteswap.h>
+
+1497646309 /usr/include/bits/endian.h
+
+1497646309 /usr/include/bits/byteswap.h
+	<features.h>
+	<bits/types.h>
+	<bits/wordsize.h>
+	<bits/byteswap-16.h>
+
+1497646312 /usr/include/bits/types.h
+	<features.h>
+	<bits/wordsize.h>
+	<bits/typesizes.h>
+
+1497646312 /usr/include/bits/typesizes.h
+
+1497646309 /usr/include/bits/byteswap-16.h
+
+1497646283 /usr/include/xlocale.h
+
+1497646312 /usr/include/sys/types.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<stddef.h>
+	<endian.h>
+	<sys/select.h>
+	<sys/sysmacros.h>
+	<bits/pthreadtypes.h>
+
+1497646310 /usr/include/time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<xlocale.h>
+
+1497646310 /usr/include/bits/time.h
+	<bits/types.h>
+	<bits/types.h>
+	<bits/timex.h>
+
+1497646310 /usr/include/bits/timex.h
+	<bits/types.h>
+
+1497646316 /usr/include/sys/select.h
+	<features.h>
+	<bits/types.h>
+	<bits/select.h>
+	<bits/sigset.h>
+	<time.h>
+	<bits/time.h>
+	<bits/select2.h>
+
+1497646316 /usr/include/bits/select.h
+	<bits/wordsize.h>
+
+1497646304 /usr/include/bits/sigset.h
+
+1497646316 /usr/include/bits/select2.h
+
+1497646312 /usr/include/sys/sysmacros.h
+	<features.h>
+
+1497646312 /usr/include/bits/pthreadtypes.h
+	<bits/wordsize.h>
+
+1497646305 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1497646305 /usr/include/bits/stdlib-bsearch.h
+
+1497646305 /usr/include/bits/stdlib-float.h
+
+1497646305 /usr/include/bits/stdlib.h
+
+1497646305 /usr/include/bits/stdlib-ldbl.h
+
+1497646309 /usr/include/string.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+	<bits/string.h>
+	<bits/string2.h>
+	<bits/string3.h>
+
+1497646309 /usr/include/bits/string.h
+
+1497646309 /usr/include/bits/string2.h
+	<endian.h>
+	<bits/types.h>
+	<stdlib.h>
+
+1497646309 /usr/include/bits/string3.h
+
+1510432228 /usr/include/allegro5/internal/alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1510432263 /usr/include/allegro5/platform/alplatf.h
+
+1510432228 /usr/include/allegro5/platform/alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1497646313 /usr/include/fcntl.h
+	<features.h>
+	<bits/types.h>
+	<bits/fcntl.h>
+	<time.h>
+	<bits/stat.h>
+	<bits/fcntl2.h>
+
+1497646313 /usr/include/bits/fcntl.h
+	<bits/fcntl-linux.h>
+
+1497646313 /usr/include/bits/fcntl-linux.h
+	<bits/fcntl-linux.h>
+	<bits/uio.h>
+
+1497646316 /usr/include/bits/uio.h
+	<sys/types.h>
+
+1497646313 /usr/include/bits/stat.h
+
+1497646313 /usr/include/bits/fcntl2.h
+
+1497646308 /usr/include/malloc.h
+	<features.h>
+	<stddef.h>
+	<stdio.h>
+
+1497646306 /usr/include/stdio.h
+	<features.h>
+	<stddef.h>
+	<bits/types.h>
+	<libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<getopt.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1497646306 /usr/include/libio.h
+	<_G_config.h>
+	<stdarg.h>
+	<sys/cdefs.h>
+	<shlib-compat.h>
+	<bits/libio-ldbl.h>
+
+1497646306 /usr/include/_G_config.h
+	<bits/types.h>
+	<stddef.h>
+	<wchar.h>
+	<gconv.h>
+
+1497646309 /usr/include/wchar.h
+	<features.h>
+	<stdio.h>
+	<stdarg.h>
+	<bits/wchar.h>
+	<stddef.h>
+	<wctype.h>
+	<xlocale.h>
+	<xlocale.h>
+	<xlocale.h>
+	<wctype.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1497646309 /usr/include/bits/wchar.h
+
+1497646321 /usr/include/wctype.h
+	<features.h>
+	<bits/types.h>
+	<wchar.h>
+	<endian.h>
+	<xlocale.h>
+
+1497646310 /usr/include/bits/wchar2.h
+
+1497646310 /usr/include/bits/wchar-ldbl.h
+
+1497646283 /usr/include/gconv.h
+	<features.h>
+	<wchar.h>
+	<stddef.h>
+
+1497646306 /usr/include/bits/libio-ldbl.h
+
+1497646306 /usr/include/bits/sys_errlist.h
+
+1497646312 /usr/include/getopt.h
+	<ctype.h>
+
+1497646299 /usr/include/ctype.h
+	<features.h>
+	<bits/types.h>
+	<endian.h>
+	<xlocale.h>
+
+1497646306 /usr/include/bits/stdio.h
+
+1497646306 /usr/include/bits/stdio2.h
+
+1497646306 /usr/include/bits/stdio-ldbl.h
+
+1510431623 /usr/include/allegro5/platform/almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1510432228 /usr/include/allegro5/platform/albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1510432228 /usr/include/allegro5/platform/almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1510431623 /usr/include/allegro5/platform/aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1497646312 /usr/include/unistd.h
+	<features.h>
+	<bits/posix_opt.h>
+	<bits/environments.h>
+	<bits/types.h>
+	<stddef.h>
+	<bits/confname.h>
+	<getopt.h>
+	<bits/unistd.h>
+
+1497646312 /usr/include/bits/posix_opt.h
+
+1497646312 /usr/include/bits/environments.h
+	<bits/wordsize.h>
+
+1497646312 /usr/include/bits/confname.h
+
+1497646312 /usr/include/bits/unistd.h
+
+1510431623 /usr/include/allegro5/platform/alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1510432228 /usr/include/allegro5/platform/alandroidcfg.h
+
+1510432228 /usr/include/allegro5/platform/alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1510431623 /usr/include/allegro5/platform/alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1510431623 /usr/include/allegro5/platform/alunix.h
+
+1510432228 /usr/include/allegro5/platform/allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1510431623 /usr/include/allegro5/platform/astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1497646305 /usr/include/inttypes.h
+	<features.h>
+	<stdint.h>
+	<stddef.h>
+
+1497646305 /usr/include/stdint.h
+	<features.h>
+	<bits/wchar.h>
+	<bits/wordsize.h>
+
+1510431623 /usr/include/allegro5/platform/astdbool.h
+	<stdbool.h>
+
+1510431623 /usr/include/allegro5/altime.h
+	"allegro5/base.h"
+
+1510432228 /usr/include/allegro5/bitmap.h
+	"allegro5/color.h"
+
+1510432228 /usr/include/allegro5/color.h
+	"allegro5/base.h"
+
+1510431623 /usr/include/allegro5/bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1510432228 /usr/include/allegro5/bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1510432228 /usr/include/allegro5/file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1510432254 /usr/include/allegro5/path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1510431623 /usr/include/allegro5/utf8.h
+	"allegro5/base.h"
+
+1510432228 /usr/include/allegro5/bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1510432228 /usr/include/allegro5/blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1510432228 /usr/include/allegro5/config.h
+	"allegro5/file.h"
+
+1510432254 /usr/include/allegro5/debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1497646299 /usr/include/assert.h
+	<features.h>
+
+1510432254 /usr/include/allegro5/display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1510432228 /usr/include/allegro5/events.h
+	"allegro5/altime.h"
+
+1510432228 /usr/include/allegro5/drawing.h
+	"allegro5/color.h"
+
+1510431623 /usr/include/allegro5/error.h
+	"allegro5/base.h"
+
+1510431623 /usr/include/allegro5/fixed.h
+	"allegro5/base.h"
+
+1510431623 /usr/include/allegro5/fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1510432228 /usr/include/allegro5/inline/fmaths.inl
+	"allegro5/error.h"
+
+1510432228 /usr/include/allegro5/fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1510432228 /usr/include/allegro5/fullscreen_mode.h
+	"allegro5/base.h"
+
+1510432228 /usr/include/allegro5/haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1510432228 /usr/include/allegro5/joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1510432254 /usr/include/allegro5/keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1510432228 /usr/include/allegro5/keycodes.h
+
+1510432254 /usr/include/allegro5/mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1510432228 /usr/include/allegro5/touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1510432228 /usr/include/allegro5/memory.h
+	"allegro5/base.h"
+
+1510432228 /usr/include/allegro5/monitor.h
+	"allegro5/base.h"
+
+1510431623 /usr/include/allegro5/mouse_cursor.h
+	"allegro5/base.h"
+
+1510432228 /usr/include/allegro5/render_state.h
+	"allegro5/base.h"
+
+1510432228 /usr/include/allegro5/shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1510432228 /usr/include/allegro5/transformations.h
+	"allegro5/display.h"
+
+1510431623 /usr/include/allegro5/system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1510431623 /usr/include/allegro5/threads.h
+	"allegro5/altime.h"
+
+1510432228 /usr/include/allegro5/timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1510432228 /usr/include/allegro5/tls.h
+	"allegro5/base.h"
+
+1510432228 /usr/include/allegro5/alcompat.h
+
+1510432228 /usr/include/allegro5/allegro_font.h
+	"allegro5/allegro.h"
+
+1510432228 /usr/include/allegro5/allegro_image.h
+	"allegro5/base.h"
+
+1510432228 /usr/include/allegro5/allegro_primitives.h
+	<allegro5/allegro.h>
+
+1510431623 /usr/include/allegro5/allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1510431623 /usr/include/allegro5/allegro5.h
+	"allegro.h"
+
+1510432228 /usr/include/allegro5/clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1510432228 /usr/include/allegro5/cpu.h
+	"allegro5/base.h"
+
